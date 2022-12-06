@@ -2,8 +2,8 @@ import { readFileSync } from 'fs';
 
 const file = readFileSync('./input.txt', 'utf8');
 
-// const checkingLength = 3;
-const checkingLength = 13;
+// const checkingLength = 3;  part 1
+const checkingLength = 13; // part 2
 const checking = file.substring(0, checkingLength).split('');
 
 const doesContainDuplicates = (input: string[]) => {
